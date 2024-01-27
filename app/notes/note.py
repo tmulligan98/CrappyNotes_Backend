@@ -1,12 +1,8 @@
-from flask_restful import Resource, reqparse
+from flask_restx import Resource, reqparse
 from flask import abort
-from json import dump, dumps, load
-from datetime import datetime
-import os
+from json import dump, load
 
 SAMPLE_JSON = "./notes/notes.json"
-
-
 
 class Note(Resource):
     parser = reqparse.RequestParser()
