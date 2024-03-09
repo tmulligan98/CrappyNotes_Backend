@@ -1,5 +1,8 @@
 # CrappyNotes_Backend
 
+## How to run?
+`$ flask --app sample --debug run`
+
 ## What is this?
 This is the backend of CrappyNotes - A multi-faceted note taking tool that I want to make. 
 The backend itself includes:
